@@ -26,7 +26,8 @@ import 'assets/scss/argon-design-system-react.scss?v1.1.0';
 import App from 'App';
 import Index from 'views/Index.js';
 import Landing from 'views/examples/Landing.js';
-import Login from 'views/examples/Login.js';
+// import Login from 'views/examples/Login.js';
+import Login from './ViewFrame/Login';
 import Profile from 'views/examples/Profile.js';
 import Register from 'views/examples/Register.js';
 

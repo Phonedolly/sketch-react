@@ -15,9 +15,9 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react';
 // nodejs library that concatenates classes
-import classnames from "classnames";
+import classnames from 'classnames';
 
 // reactstrap components
 import {
@@ -33,15 +33,15 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
-} from "reactstrap";
+  Col,
+} from 'reactstrap';
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import DemoNavbar from 'components/Navbars/DemoNavbar.js';
+import CardsFooter from 'components/Footers/CardsFooter.js';
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+import Download from '../IndexSections/Download.js';
 
 class Landing extends React.Component {
   state = {};
@@ -74,13 +74,11 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        A beautiful Design System <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        The design system comes with four pre-built pages to help you get started
+                        faster. You can change the text and images and you're good to go.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -101,9 +99,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--icon mr-1">
                             <i className="ni ni-cloud-download-95" />
                           </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
+                          <span className="btn-inner--text">Download React</span>
                         </Button>
                       </div>
                     </Col>
@@ -120,10 +116,7 @@ class Landing extends React.Component {
                   x="0"
                   y="0"
                 >
-                  <polygon
-                    className="fill-white"
-                    points="2560 0 2560 100 0 100"
-                  />
+                  <polygon className="fill-white" points="2560 0 2560 100 0 100" />
                 </svg>
               </div>
             </section>
@@ -140,13 +133,10 @@ class Landing extends React.Component {
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
                           </div>
-                          <h6 className="text-primary text-uppercase">
-                            Download Argon
-                          </h6>
+                          <h6 className="text-primary text-uppercase">Download Argon</h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Argon is a great free UI package based on Bootstrap 4 that includes the
+                            most important components and features.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -163,7 +153,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </Button>
@@ -176,13 +166,10 @@ class Landing extends React.Component {
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
                           </div>
-                          <h6 className="text-success text-uppercase">
-                            Build Something
-                          </h6>
+                          <h6 className="text-success text-uppercase">Build Something</h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Argon is a great free UI package based on Bootstrap 4 that includes the
+                            most important components and features.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -199,7 +186,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </Button>
@@ -212,13 +199,10 @@ class Landing extends React.Component {
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
                           </div>
-                          <h6 className="text-warning text-uppercase">
-                            Prepare Launch
-                          </h6>
+                          <h6 className="text-warning text-uppercase">Prepare Launch</h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Argon is a great free UI package based on Bootstrap 4 that includes the
+                            most important components and features.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -235,7 +219,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </Button>
@@ -254,7 +238,7 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={require("assets/img/theme/promo-1.png")}
+                    src={require('assets/img/theme/promo-1.png')}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
@@ -264,35 +248,26 @@ class Landing extends React.Component {
                     </div>
                     <h3>Awesome features</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      The kit comes with three pre-built pages to help you get started faster. You
+                      can change the text and images and you're good to go.
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
+                            <Badge className="badge-circle mr-3" color="success">
                               <i className="ni ni-settings-gear-65" />
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">
-                              Carefully crafted components
-                            </h6>
+                            <h6 className="mb-0">Carefully crafted components</h6>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
+                            <Badge className="badge-circle mr-3" color="success">
                               <i className="ni ni-html5" />
                             </Badge>
                           </div>
@@ -304,17 +279,12 @@ class Landing extends React.Component {
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
+                            <Badge className="badge-circle mr-3" color="success">
                               <i className="ni ni-satisfied" />
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">
-                              Super friendly support team
-                            </h6>
+                            <h6 className="mb-0">Super friendly support team</h6>
                           </div>
                         </div>
                       </li>
@@ -329,11 +299,7 @@ class Landing extends React.Component {
               <Row className="row-grid align-items-center">
                 <Col md="6">
                   <Card className="bg-default shadow border-0">
-                    <CardImg
-                      alt="..."
-                      src={require("assets/img/theme/img-1-1200x1000.jpg")}
-                      top
-                    />
+                    <CardImg alt="..." src={require('assets/img/theme/img-1-1200x1000.jpg')} top />
                     <blockquote className="card-blockquote">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -341,23 +307,17 @@ class Landing extends React.Component {
                         preserveAspectRatio="none"
                         viewBox="0 0 583 95"
                       >
-                        <polygon
-                          className="fill-default"
-                          points="0,52 583,95 0,95"
-                        />
+                        <polygon className="fill-default" points="0,52 583,95 0,95" />
                         <polygon
                           className="fill-default"
                           opacity=".2"
                           points="0,42 583,95 683,0 0,95"
                         />
                       </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                        Design System
-                      </h4>
+                      <h4 className="display-3 font-weight-bold text-white">Design System</h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        The Arctic Ocean freezes every winter and much of the sea-ice then thaws
+                        every summer, and that process will continue whatever happens.
                       </p>
                     </blockquote>
                   </Card>
@@ -369,24 +329,21 @@ class Landing extends React.Component {
                     </div>
                     <h3>Our customers</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      Don't let your uses guess by attaching tooltips and popoves to any element.
+                      Just make sure you enable them first via JavaScript.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      The kit comes with three pre-built pages to help you get started faster. You
+                      can change the text and images and you're good to go.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      The kit comes with three pre-built pages to help you get started faster. You
+                      can change the text and images and you're good to go.
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                     >
                       A beautiful UI Kit for impactful websites
                     </a>
@@ -403,7 +360,7 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/ill/ill-2.svg")}
+                      src={require('assets/img/ill/ill-2.svg')}
                     />
                   </div>
                 </Col>
@@ -417,9 +374,8 @@ class Landing extends React.Component {
                     <div className="pl-4">
                       <h4 className="display-3 text-white">Modern Interface</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        The Arctic Ocean freezes every winter and much of the sea-ice then thaws
+                        every summer, and that process will continue whatever.
                       </p>
                     </div>
                   </div>
@@ -432,18 +388,15 @@ class Landing extends React.Component {
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-success">
-                            Awesome Support
-                          </h5>
+                          <h5 className="title text-success">Awesome Support</h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            The Arctic Ocean freezes every winter and much of the sea-ice then thaws
+                            every summer, and that process will continue whatever.
                           </p>
                           <a
                             className="text-success"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </a>
@@ -460,18 +413,15 @@ class Landing extends React.Component {
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-warning">
-                            Modular Components
-                          </h5>
+                          <h5 className="title text-warning">Modular Components</h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            The Arctic Ocean freezes every winter and much of the sea-ice then thaws
+                            every summer, and that process will continue whatever.
                           </p>
                           <a
                             className="text-warning"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </a>
@@ -492,10 +442,7 @@ class Landing extends React.Component {
                 x="0"
                 y="0"
               >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
+                <polygon className="fill-white" points="2560 0 2560 100 0 100" />
               </svg>
             </div>
           </section>
@@ -505,9 +452,8 @@ class Landing extends React.Component {
                 <Col lg="8">
                   <h2 className="display-3">The amazing Team</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                    According to the National Oceanic and Atmospheric Administration, Ted, Scambos,
+                    NSIDClead scentist, puts the potentially record maximum.
                   </p>
                 </Col>
               </Row>
@@ -517,8 +463,8 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-1-800x800.jpg")}
-                      style={{ width: "200px" }}
+                      src={require('assets/img/theme/team-1-800x800.jpg')}
+                      style={{ width: '200px' }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
@@ -530,7 +476,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -538,7 +484,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -546,7 +492,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -559,22 +505,20 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-2-800x800.jpg")}
-                      style={{ width: "200px" }}
+                      src={require('assets/img/theme/team-2-800x800.jpg')}
+                      style={{ width: '200px' }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Romina Hadid</span>
-                        <small className="h6 text-muted">
-                          Marketing Strategist
-                        </small>
+                        <small className="h6 text-muted">Marketing Strategist</small>
                       </h5>
                       <div className="mt-3">
                         <Button
                           className="btn-icon-only rounded-circle"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -582,7 +526,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -590,7 +534,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -603,8 +547,8 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-3-800x800.jpg")}
-                      style={{ width: "200px" }}
+                      src={require('assets/img/theme/team-3-800x800.jpg')}
+                      style={{ width: '200px' }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
@@ -616,7 +560,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -624,7 +568,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -632,7 +576,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -645,8 +589,8 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-4-800x800.jpg")}
-                      style={{ width: "200px" }}
+                      src={require('assets/img/theme/team-4-800x800.jpg')}
+                      style={{ width: '200px' }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
@@ -658,7 +602,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -666,7 +610,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -674,7 +618,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -691,13 +635,10 @@ class Landing extends React.Component {
                 <div className="p-5">
                   <Row className="align-items-center">
                     <Col lg="8">
-                      <h3 className="text-white">
-                        We made website building easier for you.
-                      </h3>
+                      <h3 className="text-white">We made website building easier for you.</h3>
                       <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
+                        I will be the leader of a company that ends up being worth billions of
+                        dollars, because I got the answers. I understand culture.
                       </p>
                     </Col>
                     <Col className="ml-lg-auto" lg="3">
@@ -722,10 +663,9 @@ class Landing extends React.Component {
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
                   <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                    According to the National Oceanic and Atmospheric Administration, Ted, Scambos,
+                    NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs
+                    year down to low ice.
                   </p>
                 </Col>
               </Row>
@@ -736,8 +676,8 @@ class Landing extends React.Component {
                   </div>
                   <h5 className="text-white mt-3">Building tools</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
                   </p>
                 </Col>
                 <Col lg="4">
@@ -746,8 +686,8 @@ class Landing extends React.Component {
                   </div>
                   <h5 className="text-white mt-3">Grow your market</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
                   </p>
                 </Col>
                 <Col lg="4">
@@ -756,8 +696,8 @@ class Landing extends React.Component {
                   </div>
                   <h5 className="text-white mt-3">Launch time</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
                   </p>
                 </Col>
               </Row>
@@ -772,10 +712,7 @@ class Landing extends React.Component {
                 x="0"
                 y="0"
               >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
+                <polygon className="fill-white" points="2560 0 2560 100 0 100" />
               </svg>
             </div>
           </section>
@@ -786,12 +723,10 @@ class Landing extends React.Component {
                   <Card className="bg-gradient-secondary shadow">
                     <CardBody className="p-lg-5">
                       <h4 className="mb-1">Want to work with us?</h4>
-                      <p className="mt-0">
-                        Your project is very important to us.
-                      </p>
+                      <p className="mt-0">Your project is very important to us.</p>
                       <FormGroup
-                        className={classnames("mt-5", {
-                          focused: this.state.nameFocused
+                        className={classnames('mt-5', {
+                          focused: this.state.nameFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -803,14 +738,14 @@ class Landing extends React.Component {
                           <Input
                             placeholder="Your name"
                             type="text"
-                            onFocus={e => this.setState({ nameFocused: true })}
-                            onBlur={e => this.setState({ nameFocused: false })}
+                            onFocus={(e) => this.setState({ nameFocused: true })}
+                            onBlur={(e) => this.setState({ nameFocused: false })}
                           />
                         </InputGroup>
                       </FormGroup>
                       <FormGroup
                         className={classnames({
-                          focused: this.state.emailFocused
+                          focused: this.state.emailFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -822,8 +757,8 @@ class Landing extends React.Component {
                           <Input
                             placeholder="Email address"
                             type="email"
-                            onFocus={e => this.setState({ emailFocused: true })}
-                            onBlur={e => this.setState({ emailFocused: false })}
+                            onFocus={(e) => this.setState({ emailFocused: true })}
+                            onBlur={(e) => this.setState({ emailFocused: false })}
                           />
                         </InputGroup>
                       </FormGroup>
@@ -838,13 +773,7 @@ class Landing extends React.Component {
                         />
                       </FormGroup>
                       <div>
-                        <Button
-                          block
-                          className="btn-round"
-                          color="default"
-                          size="lg"
-                          type="button"
-                        >
+                        <Button block className="btn-round" color="default" size="lg" type="button">
                           Send Message
                         </Button>
                       </div>

@@ -3,10 +3,13 @@ import React, { Component } from 'react';
 // reactstrap components
 
 // core components
-import DefaultNavbar from './Frame/DefaultNavbar';
-import CardsFooter from 'Frame/CardsFooter.js';
+import DefaultNavbar from './CoreViewFrame/DefaultNavbar';
+import CardsFooter from './CoreViewFrame/CardsFooter.js';
+import SimpleFooter from './CoreViewFrame/SimpleFooter';
 
 // index page sections
+import BigBoard from './ViewFrame/BigBoard';
+
 import Hero from './views/IndexSections/Hero.js';
 import Buttons from './views/IndexSections/Buttons.js';
 import Inputs from './views/IndexSections/Inputs.js';
@@ -33,7 +36,10 @@ class App extends Component {
     return (
       <>
         <DefaultNavbar />
-        <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" />
+        <BigBoard />
+
+        {/* <CardsFooter /> */}
+        <SimpleFooter />
       </>
     );
   }
