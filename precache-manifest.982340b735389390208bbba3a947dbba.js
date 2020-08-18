@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3959135d6bf708400648897313d2106e",
+    "revision": "8e0094507e644fa2de5b62cc04d1c0f0",
     "url": "/sketch-react/index.html"
   },
   {
-    "revision": "d58c524f46910391924b",
+    "revision": "8fe93695728b98762952",
     "url": "/sketch-react/static/css/main.c59452e4.chunk.css"
   },
   {
-    "revision": "1d1e88da56cb49ab6c95",
-    "url": "/sketch-react/static/js/2.dc0b5aa2.chunk.js"
+    "revision": "8b1852c5b067e6da9d93",
+    "url": "/sketch-react/static/js/2.79c427cd.chunk.js"
   },
   {
     "revision": "6904dfd75471649aa9b5801f3774a8c5",
-    "url": "/sketch-react/static/js/2.dc0b5aa2.chunk.js.LICENSE.txt"
+    "url": "/sketch-react/static/js/2.79c427cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d58c524f46910391924b",
-    "url": "/sketch-react/static/js/main.5661bf95.chunk.js"
+    "revision": "8fe93695728b98762952",
+    "url": "/sketch-react/static/js/main.07e03f06.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/sketch-react/static/js/main.5661bf95.chunk.js.LICENSE.txt"
+    "url": "/sketch-react/static/js/main.07e03f06.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "49823fba06755fe1a35c",
-    "url": "/sketch-react/static/js/runtime-main.515a4b61.js"
+    "revision": "72842f99239f6d994b41",
+    "url": "/sketch-react/static/js/runtime-main.4235be55.js"
   },
   {
     "revision": "275a2629582aa2af3469364c6748cf38",
@@ -78,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ba449a0697388668ef05e043ffdeafca",
     "url": "/sketch-react/static/media/img-2-1200x1000.ba449a06.jpg"
+  },
+  {
+    "revision": "bbe406c94d912eeb94ea22681ea996e9",
+    "url": "/sketch-react/static/media/knuao_logo.bbe406c9.png"
+  },
+  {
+    "revision": "54104b593b5b6496e25a17b9a3c05ae6",
+    "url": "/sketch-react/static/media/knuao_logo_purple.54104b59.png"
   },
   {
     "revision": "0ec264785c9b6efbed2651d84105f436",

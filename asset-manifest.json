@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sketch-react/static/css/main.c59452e4.chunk.css",
-    "main.js": "/sketch-react/static/js/main.5661bf95.chunk.js",
-    "main.js.map": "/sketch-react/static/js/main.5661bf95.chunk.js.map",
-    "runtime-main.js": "/sketch-react/static/js/runtime-main.515a4b61.js",
-    "runtime-main.js.map": "/sketch-react/static/js/runtime-main.515a4b61.js.map",
-    "static/js/2.dc0b5aa2.chunk.js": "/sketch-react/static/js/2.dc0b5aa2.chunk.js",
-    "static/js/2.dc0b5aa2.chunk.js.map": "/sketch-react/static/js/2.dc0b5aa2.chunk.js.map",
+    "main.js": "/sketch-react/static/js/main.07e03f06.chunk.js",
+    "main.js.map": "/sketch-react/static/js/main.07e03f06.chunk.js.map",
+    "runtime-main.js": "/sketch-react/static/js/runtime-main.4235be55.js",
+    "runtime-main.js.map": "/sketch-react/static/js/runtime-main.4235be55.js.map",
+    "static/js/2.79c427cd.chunk.js": "/sketch-react/static/js/2.79c427cd.chunk.js",
+    "static/js/2.79c427cd.chunk.js.map": "/sketch-react/static/js/2.79c427cd.chunk.js.map",
     "index.html": "/sketch-react/index.html",
-    "precache-manifest.062745ddfef41a9a3e5876be5bad56f2.js": "/sketch-react/precache-manifest.062745ddfef41a9a3e5876be5bad56f2.js",
+    "precache-manifest.982340b735389390208bbba3a947dbba.js": "/sketch-react/precache-manifest.982340b735389390208bbba3a947dbba.js",
     "service-worker.js": "/sketch-react/service-worker.js",
     "static/css/main.c59452e4.chunk.css.map": "/sketch-react/static/css/main.c59452e4.chunk.css.map",
-    "static/js/2.dc0b5aa2.chunk.js.LICENSE.txt": "/sketch-react/static/js/2.dc0b5aa2.chunk.js.LICENSE.txt",
-    "static/js/main.5661bf95.chunk.js.LICENSE.txt": "/sketch-react/static/js/main.5661bf95.chunk.js.LICENSE.txt",
+    "static/js/2.79c427cd.chunk.js.LICENSE.txt": "/sketch-react/static/js/2.79c427cd.chunk.js.LICENSE.txt",
+    "static/js/main.07e03f06.chunk.js.LICENSE.txt": "/sketch-react/static/js/main.07e03f06.chunk.js.LICENSE.txt",
     "static/media/argon-react-white.png": "/sketch-react/static/media/argon-react-white.275a2629.png",
     "static/media/argon-react.png": "/sketch-react/static/media/argon-react.f38ddea9.png",
     "static/media/creativetim-white-slim.png": "/sketch-react/static/media/creativetim-white-slim.f7cb2d39.png",
@@ -22,6 +22,8 @@
     "static/media/ill-2.svg": "/sketch-react/static/media/ill-2.594b1ee1.svg",
     "static/media/img-1-1200x1000.jpg": "/sketch-react/static/media/img-1-1200x1000.1e7c70dc.jpg",
     "static/media/img-2-1200x1000.jpg": "/sketch-react/static/media/img-2-1200x1000.ba449a06.jpg",
+    "static/media/knuao_logo.png": "/sketch-react/static/media/knuao_logo.bbe406c9.png",
+    "static/media/knuao_logo_purple.png": "/sketch-react/static/media/knuao_logo_purple.54104b59.png",
     "static/media/landing.jpg": "/sketch-react/static/media/landing.0ec26478.jpg",
     "static/media/nucleo.css": "/sketch-react/static/media/nucleo-icons.f82ec6ba.ttf",
     "static/media/profile.jpg": "/sketch-react/static/media/profile.278a0d25.jpg",
@@ -32,9 +34,9 @@
     "static/media/team-4-800x800.jpg": "/sketch-react/static/media/team-4-800x800.23007132.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.515a4b61.js",
-    "static/js/2.dc0b5aa2.chunk.js",
+    "static/js/runtime-main.4235be55.js",
+    "static/js/2.79c427cd.chunk.js",
     "static/css/main.c59452e4.chunk.css",
-    "static/js/main.5661bf95.chunk.js"
+    "static/js/main.07e03f06.chunk.js"
   ]
 }
