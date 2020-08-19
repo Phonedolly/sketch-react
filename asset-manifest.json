@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sketch-react/static/css/main.c59452e4.chunk.css",
-    "main.js": "/sketch-react/static/js/main.07e03f06.chunk.js",
-    "main.js.map": "/sketch-react/static/js/main.07e03f06.chunk.js.map",
+    "main.js": "/sketch-react/static/js/main.21e9f37a.chunk.js",
+    "main.js.map": "/sketch-react/static/js/main.21e9f37a.chunk.js.map",
     "runtime-main.js": "/sketch-react/static/js/runtime-main.4235be55.js",
     "runtime-main.js.map": "/sketch-react/static/js/runtime-main.4235be55.js.map",
-    "static/js/2.79c427cd.chunk.js": "/sketch-react/static/js/2.79c427cd.chunk.js",
-    "static/js/2.79c427cd.chunk.js.map": "/sketch-react/static/js/2.79c427cd.chunk.js.map",
+    "static/js/2.d66fed01.chunk.js": "/sketch-react/static/js/2.d66fed01.chunk.js",
+    "static/js/2.d66fed01.chunk.js.map": "/sketch-react/static/js/2.d66fed01.chunk.js.map",
     "index.html": "/sketch-react/index.html",
-    "precache-manifest.982340b735389390208bbba3a947dbba.js": "/sketch-react/precache-manifest.982340b735389390208bbba3a947dbba.js",
+    "precache-manifest.87ecf26bd7e8b0eaff8f71861d647056.js": "/sketch-react/precache-manifest.87ecf26bd7e8b0eaff8f71861d647056.js",
     "service-worker.js": "/sketch-react/service-worker.js",
     "static/css/main.c59452e4.chunk.css.map": "/sketch-react/static/css/main.c59452e4.chunk.css.map",
-    "static/js/2.79c427cd.chunk.js.LICENSE.txt": "/sketch-react/static/js/2.79c427cd.chunk.js.LICENSE.txt",
-    "static/js/main.07e03f06.chunk.js.LICENSE.txt": "/sketch-react/static/js/main.07e03f06.chunk.js.LICENSE.txt",
+    "static/js/2.d66fed01.chunk.js.LICENSE.txt": "/sketch-react/static/js/2.d66fed01.chunk.js.LICENSE.txt",
+    "static/js/main.21e9f37a.chunk.js.LICENSE.txt": "/sketch-react/static/js/main.21e9f37a.chunk.js.LICENSE.txt",
     "static/media/argon-react-white.png": "/sketch-react/static/media/argon-react-white.275a2629.png",
     "static/media/argon-react.png": "/sketch-react/static/media/argon-react.f38ddea9.png",
     "static/media/creativetim-white-slim.png": "/sketch-react/static/media/creativetim-white-slim.f7cb2d39.png",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4235be55.js",
-    "static/js/2.79c427cd.chunk.js",
+    "static/js/2.d66fed01.chunk.js",
     "static/css/main.c59452e4.chunk.css",
-    "static/js/main.07e03f06.chunk.js"
+    "static/js/main.21e9f37a.chunk.js"
   ]
 }
