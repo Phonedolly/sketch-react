@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sketch-react/static/css/main.c59452e4.chunk.css",
-    "main.js": "/sketch-react/static/js/main.21e9f37a.chunk.js",
-    "main.js.map": "/sketch-react/static/js/main.21e9f37a.chunk.js.map",
+    "main.js": "/sketch-react/static/js/main.8914deb5.chunk.js",
+    "main.js.map": "/sketch-react/static/js/main.8914deb5.chunk.js.map",
     "runtime-main.js": "/sketch-react/static/js/runtime-main.4235be55.js",
     "runtime-main.js.map": "/sketch-react/static/js/runtime-main.4235be55.js.map",
     "static/js/2.d66fed01.chunk.js": "/sketch-react/static/js/2.d66fed01.chunk.js",
     "static/js/2.d66fed01.chunk.js.map": "/sketch-react/static/js/2.d66fed01.chunk.js.map",
     "index.html": "/sketch-react/index.html",
-    "precache-manifest.87ecf26bd7e8b0eaff8f71861d647056.js": "/sketch-react/precache-manifest.87ecf26bd7e8b0eaff8f71861d647056.js",
+    "precache-manifest.364aa9b2d6fe60b106f2d5cf0815a05d.js": "/sketch-react/precache-manifest.364aa9b2d6fe60b106f2d5cf0815a05d.js",
     "service-worker.js": "/sketch-react/service-worker.js",
     "static/css/main.c59452e4.chunk.css.map": "/sketch-react/static/css/main.c59452e4.chunk.css.map",
     "static/js/2.d66fed01.chunk.js.LICENSE.txt": "/sketch-react/static/js/2.d66fed01.chunk.js.LICENSE.txt",
-    "static/js/main.21e9f37a.chunk.js.LICENSE.txt": "/sketch-react/static/js/main.21e9f37a.chunk.js.LICENSE.txt",
+    "static/js/main.8914deb5.chunk.js.LICENSE.txt": "/sketch-react/static/js/main.8914deb5.chunk.js.LICENSE.txt",
     "static/media/argon-react-white.png": "/sketch-react/static/media/argon-react-white.275a2629.png",
     "static/media/argon-react.png": "/sketch-react/static/media/argon-react.f38ddea9.png",
     "static/media/creativetim-white-slim.png": "/sketch-react/static/media/creativetim-white-slim.f7cb2d39.png",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.4235be55.js",
     "static/js/2.d66fed01.chunk.js",
     "static/css/main.c59452e4.chunk.css",
-    "static/js/main.21e9f37a.chunk.js"
+    "static/js/main.8914deb5.chunk.js"
   ]
 }
